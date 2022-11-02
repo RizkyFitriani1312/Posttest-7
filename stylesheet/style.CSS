@@ -1,0 +1,220 @@
+.header {
+    background-image: url("../img/Aurora.jpeg");
+    background-color: cyan;
+    height: 90px;
+    color: white;
+}
+
+.header-logo {
+    font-size: 36px;
+    float: left;
+    padding: 20px 40px;
+}
+
+.navbar {
+    height: 40px;
+    float: right;
+    color: white;
+    padding: 20px 40px;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+    color: rgb(184, 99, 99);
+}
+
+.tentang {
+    height: 500px;
+    margin-top: 100px;
+}
+
+.tentang-title {
+    border-bottom: 2px solid navy;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.foto-profil{
+    float: left;
+}
+
+.informasi {
+    float: right;
+    margin-left: 600px;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+
+.main {
+    padding: 100px 80px
+}
+
+.container-regis {
+    padding: 100px;
+    font-size: 60px;
+}
+
+.copy-container h2 {
+    font-size: 60px;
+}
+
+.login {
+    border-bottom: 2px solid navy;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.contents {
+    height: 500px;
+    margin-top: 100px;
+}
+
+.contents-title {
+    border-bottom: 2px solid navy;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    flex-grow: 1;
+}
+
+.contents-item {
+    float: left;
+    margin-right: 20px;
+}
+
+.contents-item p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.contact-form {
+    padding-top:100px;
+}
+
+.contact-form input {
+    width: 400px;
+    margin-top:10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid white;
+}
+
+.contact-form textarea {
+    width: 400px;
+    margin-top:10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid white;
+}
+
+.contact-submit {
+    background: white;
+    color: rgb(77, 76, 76);
+}
+ 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(245, 244, 244);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email] {
+    padding: 5px;
+    margin-left: 20px;
+    color: rosybrowns;
+    border: none;
+    cursor: text;
+}
+
+input[type=password] {
+    padding: 5px;
+    margin-left: 20px;
+    color: rosybrown;
+    border: none;
+    cursor: text;
+}
+
+input[type=number] {
+    padding: 5px;
+    margin-left: 20px;
+    color: rosybrown;
+    border: none;
+    cursor: text;
+}
+
+input[type=checkbox] {
+    color: rosybrown;
+    border: none;
+    cursor: default;
+}
+
+input[type=submit] {
+    background-color: green;
+    color: rgb(245, 244, 244);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: green;
+}
+
+.contact-container {
+    border-radius: 5px;
+    background-color: rgb(245, 244, 244);
+    border-bottom: 2px solid navy;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    flex-grow: 1;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    background-color: skyblue;
+    color: blue;
+    height:120px;
+    padding: 40px;
+}
+
+.footer-logo {
+    font-size: 32px;
+    float: left;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+}
